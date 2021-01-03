@@ -3,9 +3,9 @@
 ### Day 1: 2021/1/3, Monday
 
 **Today's Progress**: 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a>　一日目<br>自分のブログとか進捗とか載せるためのサービスを知りたい技術と合わせてcakeとvueでspaつくることにした。<br>RESTAPIとcake+vueの記事読みあさったところで初日は終了。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1345723746858852353?ref_src=twsrc%5Etfw">January 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a>　一日目<br>自分のブログとか進捗とか載せるためのサービスを知りたい技術と合わせてcakeとvueでspaつくることにした。<br>RESTAPIとcake+vueの記事読みあさったところで初日は終了。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1345723746858852353?ref_src=twsrc%5Etfw">January 3, 2021</a></blockquote>
 
-**Thoughts** 
+**Thoughts**:
 今まではcakePHPのviewでフロントを作っていて今回vueでspaを作ろうと思ったのでまずは勉強しようと思って一日目を記事読み漁りに使った。
 一応サービス名だけ決めてレポジトリは作った。明日はとりあえずvueで環境構築してそれにcakeを混ぜるところまでが目標。
 laravelとvueのspaは記事いっぱいあるけどcakeとvueはなかなか記事がなく苦戦しそう。
