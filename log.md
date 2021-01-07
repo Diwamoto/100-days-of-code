@@ -32,3 +32,25 @@ SPAはどんなものかは大体わかったので次はcakeでモデルとAPI�
 
 **Link(s) to work**
 1. [【Vue.js】爆速でSPAを作る](https://qiita.com/nagimaruxxx/items/8fc59a5ca05bb91bfe1f)
+
+### Day 2: 2021/1/5, Tuesday 
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 3日目<br>cakeを動かして、ローカル開発環境を整えるところまでやった。<br>その後swaggerでAPIドキュメント書こうと思って思いのほか基本がわかってなかったので再び記事漁りタイム。<br>cakeでAPI組むだけなら簡単なんだけど今後の成長の為にも勉強しないと</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1347010399586062336?ref_src=twsrc%5Etfw">January 7, 2021</a></blockquote>
+
+**Thoughts**:
+cakeの環境構築までは簡単にできたが、swaggerに苦戦。
+とりあえずswaggerわからん状態ではつくれないのでいったん基本構文を学びながらswaggerをちゃんとかけるようになる。
+フォルダ分けはbackendフォルダにcake入れて、index.phpからパス通すようにした。
+frontに関してはnpm run devやる感じ
+とりあえずユーザテーブル作る。
+
+
+**Link(s) to work**
+[Composerを使ってCakePHP環境を楽々構築！(Windows) - Qiita](https://qiita.com/mikoski01/items/db584b40ddea4a56a58f)
+[インストール - 4.x](https://book.cakephp.org/4/ja/installation.html)
+[CakePHP4 で Swagger3 を使って API ドキュメントを作る - Qiita](https://qiita.com/katsuhiko/items/22511d5ed5eff3e4616a)
+[OpenAPI (Swagger) 超入門 - Qiita](https://qiita.com/teinen_qiita/items/e440ca7b1b52ec918f1b)
+[SwaggerでRESTful APIの管理を楽にする - Qiita](https://qiita.com/disc99/items/37228f5d687ad2969aa2)
+[Swaggerの記法まとめ - Qiita](https://qiita.com/rllllho/items/53a0023b32f4c0f8eabb)
+[swagger editor](https://editor.swagger.io/)
