@@ -33,7 +33,7 @@ SPAはどんなものかは大体わかったので次はcakeでモデルとAPI�
 **Link(s) to work**
 1. [【Vue.js】爆速でSPAを作る](https://qiita.com/nagimaruxxx/items/8fc59a5ca05bb91bfe1f)
 
-### Day 2: 2021/1/5, Tuesday 
+### Day 3: 2021/1/6, Tuesday 
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 3日目<br>cakeを動かして、ローカル開発環境を整えるところまでやった。<br>その後swaggerでAPIドキュメント書こうと思って思いのほか基本がわかってなかったので再び記事漁りタイム。<br>cakeでAPI組むだけなら簡単なんだけど今後の成長の為にも勉強しないと</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1347010399586062336?ref_src=twsrc%5Etfw">January 7, 2021</a></blockquote>
@@ -54,3 +54,25 @@ frontに関してはnpm run devやる感じ
 [SwaggerでRESTful APIの管理を楽にする - Qiita](https://qiita.com/disc99/items/37228f5d687ad2969aa2)
 [Swaggerの記法まとめ - Qiita](https://qiita.com/rllllho/items/53a0023b32f4c0f8eabb)
 [swagger editor](https://editor.swagger.io/)
+
+### Day 4: 2021/1/7, Tuesday 
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 4日目<br>cakeでテーブルつくって、apiを作るのにrest APIを勉強するのに時間を使った。<br>今までは単純にコントローラーでアクセス制御する感じのやつしか作ったことなかったから、httpのステータスコードとメソッドで切替する感じのやつが結構むずい。<br>PUTメソッドとか聞いたことないーー</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1347186076851400704?ref_src=twsrc%5Etfw">January 7, 2021</a></blockquote>
+
+**Thoughts**:
+apiを作るために勉強することが多すぎる。デザインにも時間を割かなければいけないのに、まだまだ足りていない。
+ただ、REST APIを学ぶこと自体はとても面白い。バックエンドとはかくあるべき。みたいな感じ
+明日はいったん進捗を止めて、paizaの問題を解くことと本を読むことにする。
+
+
+
+**Link(s) to work**
+[PUT か POST か PATCH か？ - Qiita](https://qiita.com/suin/items/d17bdfc8dba086d36115)
+[REST入門 基礎知識 - Qiita](https://qiita.com/TakahiRoyte/items/949f4e88caecb02119aa)
+[RESTful APIのHTTPステータスコード設計 - Qiita](https://qiita.com/NagaokaKenichi/items/eb85b5fbb719d60c6627)
+[bakeコマンド - Qiita](https://qiita.com/geechlife/items/4f7d19bd60b797ebb087)
+[REST - 3.9](https://book.cakephp.org/3/ja/development/rest.html)
+[一番分かりやすい OAuth の説明 - Qiita](https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be)
+
+
