@@ -75,4 +75,49 @@ apiを作るために勉強することが多すぎる。デザインにも時�
 [REST - 3.9](https://book.cakephp.org/3/ja/development/rest.html)
 [一番分かりやすい OAuth の説明 - Qiita](https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be)
 
+### Day5~9: 2021/1/7 ~ 2021/1/11, Friday ~ Monday
 
+**Today's Progress**: 
+go言語をかけるようになるためにpaizaでB〜D問を何問か解いた。
+
+**Thoughts**:
+とりあえず以前はPHPで書いていたのを全部go言語に移行した。
+B問を解いて見た感じでは今のところPHP→goになって不便に思うところはない。
+今後WEB系のコードを書く時に実感するんだろうか。。。
+とりあえず、コードを書く時に必要だった記事をいかにまとめる
+
+**Link(s) to work**
+[Go 言語で標準入力から読み込む競技プログラミングのアレ — 改訂第二版 - Qiita](https://qiita.com/tnoda_/items/b503a72eac82862d30c6)
+[golang　文字列→数値、数値→文字列変換 - Qiita](https://qiita.com/quicksort/items/c9522793a941edf074fd)
+[Go の命名規則 | micnncim](https://micnncim.com/posts/ja/go-naming-convention)
+[Go言語における文字列の「長さ」と「文字数」を取得する処理の違い - Qiita](https://qiita.com/jeijeijei777/items/ab118cbcba246a5df6a5)
+[Go言語 for文のサンプル(break/continue) | ITSakura](https://itsakura.com/go-for)
+[Go | シングルクオートでは文字列を定義できない - Qiita](https://qiita.com/YumaInaura/items/7538a4f5b9790ae64d56)
+[Go言語 if文のサンプル | ITSakura](https://itsakura.com/golang-if)
+[Go言語 文字列の一部を取得する(スライス) | ITSakura](https://itsakura.com/golang-slice)
+[QuoteとUnquote #golang - tenntenn.dev](https://tenntenn.dev/ja/posts/quote/)
+[【Go】基本文法④(配列・スライス) - Qiita](https://qiita.com/k-penguin-sato/items/daad9986d6c42bdcde90)
+[golangを基礎から学ぶ　関数編 - Qiita](https://qiita.com/high5/items/4e2580241039c950e1c4)
+[Go言語: スライス(配列)の要素を取り出す方法 - Qiita](https://qiita.com/suin/items/0b2a815c815e23468adc)
+[GoのSliceをSortする(sort.Sliceとsort.SliceStable) - Qiita](https://qiita.com/Sekky0905/items/2d5ccd6d076106e9d21c)
+[Go言語 switch文のサンプル | ITSakura](https://itsakura.com/go-switch)
+[【Go入門】Goの基本型 – 論理値型（Boolean types）](https://code-graffiti.com/boolean-types-in-golang/)
+
+### Day 10: 2021/1/12, Tuesday 
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 10日目<br>cakePHPで作っていたバックエンドの環境をginで作り直すために環境を整えた。今まではlamp環境で共通の環境を使っていたけど、goで環境を作ろうとすると、全部のコードをビルドしようとしているのか、起動すらおぼつかなかったのでやめた。とりあえず環境作ったところまで。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1349215564569329667?ref_src=twsrc%5Etfw">January 13, 2021</a></blockquote> 
+
+**Thoughts**:
+とりあえずPHP→GOに移行完了。
+これからweb系のコード書くのにまたPHPだとうまくいくけど、みたいな場合があると思う。
+目標は後10日で完成。。。結構キツそう。
+記事も書いた。
+[dockerでSPAなgin + vue + mysqlの環境をさくっと作った話](https://zenn.dev/diwamoto/articles/e6e4be8728c2e2)
+[ginでginをライブリロードさせる時につまづいたこと](https://zenn.dev/diwamoto/articles/95fd920baff64b)
+
+**Link(s) to work**
+[ginでginをライブリロードする - Qiita](https://qiita.com/k0kubun/items/64d177ceb9af07dfb78b)
+[go-ginでサクッとRESTAPIを構築する - Qiita](https://qiita.com/shiei_kawa/items/eddf48287455380f618f)
+[Docker + Go + Gin の開発環境を準備する - Qiita](https://qiita.com/kkeisuke/items/7cd4d5834386666faab3)
+[GitHub - gin-gonic/gin: Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance — up to 40 times faster. If you need smashing performance, get yourself some Gin.](https://github.com/gin-gonic/gin)
