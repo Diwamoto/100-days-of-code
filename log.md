@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 1: 2021/1/4, Monday
+### Day 1: 2021/1/4, 月曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a>　一日目<br>自分のブログとか進捗とか載せるためのサービスを知りたい技術と合わせてcakeとvueでspaつくることにした。<br>RESTAPIとcake+vueの記事読みあさったところで初日は終了。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1345723746858852353?ref_src=twsrc%5Etfw">January 3, 2021</a></blockquote>
@@ -20,7 +20,7 @@ ucmitsのためにもcake4とvueを覚えるのは力にしかならないので
 4. [CakePHPにVue.jsを導入したい](https://qiita.com/nagimaruxxx/items/1f2a866b833446892f9e)
 5. [【Vue.js】爆速でSPAを作る](https://qiita.com/nagimaruxxx/items/8fc59a5ca05bb91bfe1f)
 
-### Day 2: 2021/1/5, Tuesday 
+### Day 2: 2021/1/5, 火曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 2日目<br>一昨日はできなかったのでとりあえず今日は一時間超えてもvueが動くところまでやった。<br>結果としてはnodeのインストールに苦戦しただけでvueが動いてspaとして機能するところまでは出来上がった。<br>今日はcakeでプロジェクト作ってモデルのCRUD作るところまでやる。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1346701699751112705?ref_src=twsrc%5Etfw">January 6, 2021</a></blockquote>
@@ -33,7 +33,7 @@ SPAはどんなものかは大体わかったので次はcakeでモデルとAPI�
 **Link(s) to work**
 1. [【Vue.js】爆速でSPAを作る](https://qiita.com/nagimaruxxx/items/8fc59a5ca05bb91bfe1f)
 
-### Day 3: 2021/1/6, Tuesday 
+### Day 3: 2021/1/6, 水曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 3日目<br>cakeを動かして、ローカル開発環境を整えるところまでやった。<br>その後swaggerでAPIドキュメント書こうと思って思いのほか基本がわかってなかったので再び記事漁りタイム。<br>cakeでAPI組むだけなら簡単なんだけど今後の成長の為にも勉強しないと</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1347010399586062336?ref_src=twsrc%5Etfw">January 7, 2021</a></blockquote>
@@ -55,7 +55,7 @@ frontに関してはnpm run devやる感じ
 [Swaggerの記法まとめ - Qiita](https://qiita.com/rllllho/items/53a0023b32f4c0f8eabb)
 [swagger editor](https://editor.swagger.io/)
 
-### Day 4: 2021/1/7, Tuesday 
+### Day 4: 2021/1/7, 木曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 4日目<br>cakeでテーブルつくって、apiを作るのにrest APIを勉強するのに時間を使った。<br>今までは単純にコントローラーでアクセス制御する感じのやつしか作ったことなかったから、httpのステータスコードとメソッドで切替する感じのやつが結構むずい。<br>PUTメソッドとか聞いたことないーー</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1347186076851400704?ref_src=twsrc%5Etfw">January 7, 2021</a></blockquote>
@@ -75,7 +75,7 @@ apiを作るために勉強することが多すぎる。デザインにも時�
 [REST - 3.9](https://book.cakephp.org/3/ja/development/rest.html)
 [一番分かりやすい OAuth の説明 - Qiita](https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be)
 
-### Day5~9: 2021/1/7 ~ 2021/1/11, Friday ~ Monday
+### Day5~9: 2021/1/7 ~ 2021/1/11, 金〜月
 
 **Today's Progress**: 
 go言語をかけるようになるためにpaizaでB〜D問を何問か解いた。
@@ -103,7 +103,7 @@ B問を解いて見た感じでは今のところPHP→goになって不便に�
 [Go言語 switch文のサンプル | ITSakura](https://itsakura.com/go-switch)
 [【Go入門】Goの基本型 – 論理値型（Boolean types）](https://code-graffiti.com/boolean-types-in-golang/)
 
-### Day 10: 2021/1/12, Tuesday 
+### Day 10: 2021/1/12, 火曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 10日目<br>cakePHPで作っていたバックエンドの環境をginで作り直すために環境を整えた。今まではlamp環境で共通の環境を使っていたけど、goで環境を作ろうとすると、全部のコードをビルドしようとしているのか、起動すらおぼつかなかったのでやめた。とりあえず環境作ったところまで。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1349215564569329667?ref_src=twsrc%5Etfw">January 13, 2021</a></blockquote> 
@@ -121,3 +121,24 @@ B問を解いて見た感じでは今のところPHP→goになって不便に�
 [go-ginでサクッとRESTAPIを構築する - Qiita](https://qiita.com/shiei_kawa/items/eddf48287455380f618f)
 [Docker + Go + Gin の開発環境を準備する - Qiita](https://qiita.com/kkeisuke/items/7cd4d5834386666faab3)
 [GitHub - gin-gonic/gin: Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance — up to 40 times faster. If you need smashing performance, get yourself some Gin.](https://github.com/gin-gonic/gin)
+
+
+### Day 11: 2021/1/13, 水曜日 
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 11日目<br>curlでアクセスしたginからgormを使ってdbからデータを引っ張り出して取得する、というAPIの一番基本の部分を一日かけて作り上げた。。。<br>簡単なjoinもできたので、今日は要件に必要なテーブルを全部抜き出してモデル作成するところまで頑張ります</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1349554189601370112?ref_src=twsrc%5Etfw">January 14, 2021</a></blockquote> 
+
+**Thoughts**:
+とりあえずAPI第一歩ができた。今後は増やすだけじゃなくて認証系もやらないといけないな。。。
+つまづいたのはgin.H{}でJsonを渡そうとして、どうがんばっても"がエスケープされてしまうせいでAPIとして機能していなかった点。
+そもそもjsonを返すだけであれば、gin.H()を使う必要はなかった。PHPのcomposer管理のプロジェクトだと全てのコードがvendorフォルダに
+追加されるので元コードが見易かったけど、ginの思想として、ブラウザとサーバでやりとりされる全てのデータにエスケープを挟むだけで
+XSSは防げるという考えがあるようなので、どうがんばっても無理だということだった。
+
+
+**Link(s) to work**
+[dockerでSPAなgin + vue + mysqlの環境をさくっと作った話](https://zenn.dev/diwamoto/articles/e6e4be8728c2e2)
+[【はじめてのGO】gin + gormでシンプルなCRUDなREST APIを作成する - Qiita](https://qiita.com/daitasu/items/9428220810816972b5d5)
+[Goのtimeパッケージチートシート - Qiita](https://qiita.com/wMETAw/items/2c3120d1338c646ecfba)
+[GORMガイド | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/ja_JP/docs/index.html)
+[Go言語 ORMライブラリ GORMの使い方 | taisablog](https://taisablog.com/archives/1572)
