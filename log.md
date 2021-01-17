@@ -142,3 +142,55 @@ XSSは防げるという考えがあるようなので、どうがんばって�
 [Goのtimeパッケージチートシート - Qiita](https://qiita.com/wMETAw/items/2c3120d1338c646ecfba)
 [GORMガイド | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/ja_JP/docs/index.html)
 [Go言語 ORMライブラリ GORMの使い方 | taisablog](https://taisablog.com/archives/1572)
+
+### Day 12: 2021/1/14, 木曜日 
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 12日目<br>フォルダ構造をmvcっぽくして、簡単なテストまで書いた。<br>テストを書くのはめっちゃ簡単だったけど、crudの実装時にステップ実行したくなってデバッグ環境を作ろうと下田ころ、docker on vagrant環境だとリモートデバッグがうまく動かないことを発見して環境入れ替え中。。。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1349971739447488512?ref_src=twsrc%5Etfw">January 15, 2021</a></blockquote>
+
+**Thoughts**:
+goのデバッグ環境構築について、本当に苦労した。まずは、ginでライブリロードをおこないつつdlvを使ってデバッグのリッスンをしようとしたのだが、ginはコマンドの引数でポートを指定する為、ginのバイナリに引数を付け足しても意味がないことに気がつき、断念。また、vagrant上のdockerコンテナからリッスンしようとすると、デバッグにどうやらSSHの設定等も必要なのでこちらも断念。
+いったんdocker for mac環境に映して再挑戦する。
+
+**Link(s) to work**
+[Visual Studio Code - "Remote Development" を使って Docker Container on "Vagrant + VirtualBox" のファイルを編集する - Qiita](https://qiita.com/anfangd/items/63ab95a2005cb2d1f196)
+[Docker: ホストからコンテナのIPアドレスを取得したい - Qiita](https://qiita.com/suin/items/50033dc60bfba8553395)
+[Docker上のGo製Webアプリケーションをリモートデバッグする - Qiita](https://qiita.com/keitakn/items/f46347f871083356149b)
+[Visual Studio CodeでGo言語のデバッグ環境を整える - Qiita](https://qiita.com/momotaro98/items/7fbcad57a9d8488fe999)
+[GitHub - golang/vscode-go: Go extension for VS Code](https://github.com/golang/vscode-go)
+[Golangのデバッガdelveの使い方 - Qiita](https://qiita.com/minamijoyo/items/4da68467c1c5d94c8cd7)
+[Go 言語用デバッガー delve を活用する — Think Abstract](https://amasuda.xyz/post/2020-02-12-golang-delve-tips/)
+[Debugging Go using Delve, Docker and VS Code | by Mike Kaperys | Medium](https://medium.com/@kaperys/delve-into-docker-d6c92be2f823)
+
+### Day 13: 2021/1/15, 金曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 13日目<br>docker for mac環境に映してやってみたが、どうやらgin(ライブリロード)とdlvの相性が悪そう。<br>とりあえずやめて、vagrant環境に戻して、crudの実装とテストをちゃんと書くようにした。<br>とりあえずはまだデバッグが必要な状態ではないのでまだおいとく。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1350469005455155200?ref_src=twsrc%5Etfw">January 16, 2021</a></blockquote>
+
+**Thoughts**:
+vagrant環境に戻して、CRUDの実装を進めた。デバッグができないので、1関数ごとにきちんとテストを書いて関数の安全性を担保するようにした。
+他のモデルに関しても書かないといけないのでとりあえず早くUserモデルのCRUDを作って先に進みたい。
+
+**Link(s) to work**
+[Go 言語 testing チートシート - Qiita](https://qiita.com/nirasan/items/b357f0ad9172ab9fa19b)
+[はじめてのgo test - Qiita](https://qiita.com/marnie_ms4/items/e51cc6d879cc9ad07af3)
+[go-playground/validator リクエストパラメータ向けValidationパターンまとめ - Qiita](https://qiita.com/RunEagler/items/ad79fc860c3689797ccc)
+[curlコマンドから HTTP POST する方法 - Qiita](https://qiita.com/letsspeak/items/8c7266742371699ab45e)[curlコマンドから HTTP POST する方法 - Qiita](https://qiita.com/letsspeak/items/8c7266742371699ab45e)
+
+### Day 14: 2021/1/16, 土曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 13日目<br>docker for mac環境に映してやってみたが、どうやらgin(ライブリロード)とdlvの相性が悪そう。<br>とりあえずやめて、vagrant環境に戻して、crudの実装とテストをちゃんと書くようにした。<br>とりあえずはまだデバッグが必要な状態ではないのでまだおいとく。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1350469005455155200?ref_src=twsrc%5Etfw">January 16, 2021</a></blockquote>
+
+**Thoughts**:
+vagrant環境に戻して、CRUDの実装を進めた。デバッグができないので、1関数ごとにきちんとテストを書いて関数の安全性を担保するようにした。
+他のモデルに関しても書かないといけないのでとりあえず早くUserモデルのCRUDを作って先に進みたい。
+
+**Link(s) to work**
+[Go 言語 testing チートシート - Qiita](https://qiita.com/nirasan/items/b357f0ad9172ab9fa19b)
+[はじめてのgo test - Qiita](https://qiita.com/marnie_ms4/items/e51cc6d879cc9ad07af3)
+[go-playground/validator リクエストパラメータ向けValidationパターンまとめ - Qiita](https://qiita.com/RunEagler/items/ad79fc860c3689797ccc)
+[curlコマンドから HTTP POST する方法 - Qiita](https://qiita.com/letsspeak/items/8c7266742371699ab45e)[curlコマンドから HTTP POST する方法 - Qiita](https://qiita.com/letsspeak/items/8c7266742371699ab45e)
+
+
+
