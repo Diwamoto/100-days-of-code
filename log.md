@@ -75,7 +75,7 @@ apiを作るために勉強することが多すぎる。デザインにも時�
 [REST - 3.9](https://book.cakephp.org/3/ja/development/rest.html)
 [一番分かりやすい OAuth の説明 - Qiita](https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be)
 
-### Day5~9: 2021/1/7 ~ 2021/1/11, 金〜月
+### Day5~8: 2021/1/7 ~ 2021/1/11, 金〜月
 
 **Today's Progress**: 
 go言語をかけるようになるためにpaizaでB〜D問を何問か解いた。
@@ -103,7 +103,7 @@ B問を解いて見た感じでは今のところPHP→goになって不便に�
 [Go言語 switch文のサンプル | ITSakura](https://itsakura.com/go-switch)
 [【Go入門】Goの基本型 – 論理値型（Boolean types）](https://code-graffiti.com/boolean-types-in-golang/)
 
-### Day 10: 2021/1/12, 火曜日
+### Day 9: 2021/1/12, 火曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 10日目<br>cakePHPで作っていたバックエンドの環境をginで作り直すために環境を整えた。今まではlamp環境で共通の環境を使っていたけど、goで環境を作ろうとすると、全部のコードをビルドしようとしているのか、起動すらおぼつかなかったのでやめた。とりあえず環境作ったところまで。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1349215564569329667?ref_src=twsrc%5Etfw">January 13, 2021</a></blockquote> 
@@ -123,7 +123,7 @@ B問を解いて見た感じでは今のところPHP→goになって不便に�
 [GitHub - gin-gonic/gin: Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance — up to 40 times faster. If you need smashing performance, get yourself some Gin.](https://github.com/gin-gonic/gin)
 
 
-### Day 11: 2021/1/13, 水曜日 
+### Day 10: 2021/1/13, 水曜日 
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 11日目<br>curlでアクセスしたginからgormを使ってdbからデータを引っ張り出して取得する、というAPIの一番基本の部分を一日かけて作り上げた。。。<br>簡単なjoinもできたので、今日は要件に必要なテーブルを全部抜き出してモデル作成するところまで頑張ります</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1349554189601370112?ref_src=twsrc%5Etfw">January 14, 2021</a></blockquote> 
@@ -143,7 +143,7 @@ XSSは防げるという考えがあるようなので、どうがんばって�
 [GORMガイド | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/ja_JP/docs/index.html)
 [Go言語 ORMライブラリ GORMの使い方 | taisablog](https://taisablog.com/archives/1572)
 
-### Day 12: 2021/1/14, 木曜日 
+### Day 11: 2021/1/14, 木曜日 
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 12日目<br>フォルダ構造をmvcっぽくして、簡単なテストまで書いた。<br>テストを書くのはめっちゃ簡単だったけど、crudの実装時にステップ実行したくなってデバッグ環境を作ろうと下田ころ、docker on vagrant環境だとリモートデバッグがうまく動かないことを発見して環境入れ替え中。。。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1349971739447488512?ref_src=twsrc%5Etfw">January 15, 2021</a></blockquote>
@@ -162,7 +162,7 @@ goのデバッグ環境構築について、本当に苦労した。まずは、
 [Go 言語用デバッガー delve を活用する — Think Abstract](https://amasuda.xyz/post/2020-02-12-golang-delve-tips/)
 [Debugging Go using Delve, Docker and VS Code | by Mike Kaperys | Medium](https://medium.com/@kaperys/delve-into-docker-d6c92be2f823)
 
-### Day 13: 2021/1/15, 金曜日
+### Day 12: 2021/1/15, 金曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 13日目<br>docker for mac環境に映してやってみたが、どうやらgin(ライブリロード)とdlvの相性が悪そう。<br>とりあえずやめて、vagrant環境に戻して、crudの実装とテストをちゃんと書くようにした。<br>とりあえずはまだデバッグが必要な状態ではないのでまだおいとく。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1350469005455155200?ref_src=twsrc%5Etfw">January 16, 2021</a></blockquote>
@@ -177,7 +177,7 @@ vagrant環境に戻して、CRUDの実装を進めた。デバッグができな
 [go-playground/validator リクエストパラメータ向けValidationパターンまとめ - Qiita](https://qiita.com/RunEagler/items/ad79fc860c3689797ccc)
 [curlコマンドから HTTP POST する方法 - Qiita](https://qiita.com/letsspeak/items/8c7266742371699ab45e)[curlコマンドから HTTP POST する方法 - Qiita](https://qiita.com/letsspeak/items/8c7266742371699ab45e)
 
-### Day 14: 2021/1/16, 土曜日
+### Day 13: 2021/1/17, 日曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 13日目<br>docker for mac環境に映してやってみたが、どうやらgin(ライブリロード)とdlvの相性が悪そう。<br>とりあえずやめて、vagrant環境に戻して、crudの実装とテストをちゃんと書くようにした。<br>とりあえずはまだデバッグが必要な状態ではないのでまだおいとく。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1350469005455155200?ref_src=twsrc%5Etfw">January 16, 2021</a></blockquote>
@@ -192,5 +192,16 @@ vagrant環境に戻して、CRUDの実装を進めた。デバッグができな
 [go-playground/validator リクエストパラメータ向けValidationパターンまとめ - Qiita](https://qiita.com/RunEagler/items/ad79fc860c3689797ccc)
 [curlコマンドから HTTP POST する方法 - Qiita](https://qiita.com/letsspeak/items/8c7266742371699ab45e)[curlコマンドから HTTP POST する方法 - Qiita](https://qiita.com/letsspeak/items/8c7266742371699ab45e)
 
+### Day 14: 2021/1/18, 月曜日
 
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 14日目<br>ユーザのCRUDがようやく完成してコミットできた。<br>毎日コードは書いていたのに進捗が生めなかったことが悔しかったが、一回CRUDを作ってしまえば他のモデルにもコピーできる。明日は必要テーブル全部に適用しよう。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1351172263538778119?ref_src=twsrc%5Etfw">January 18, 2021</a></blockquote>
 
+**Thoughts**:
+一つAPIが完成した。Oauthはできてないが、とりあえずurlからdbを操作できる状態まで動かした。
+Oauthに関しては、どういう認証をすれば良いか考えている。そもそもAPIは外部に公開するつもりはないので、AWSの内部サーバーとして
+構築してしまえば認証問題は一度考えなくても良いのではないかと思っている。
+とりあえず、バックエンドを早く作って全く触れていないフロントにも取り組みたい。
+
+**Link(s) to work**
+[【MySQL】auto_increment（オートインクリメント）の連番状態をリセット（初期化）する - Qiita](https://qiita.com/sola-msr/items/d6c70995ddd95361dda7)
