@@ -205,3 +205,7 @@ Oauthに関しては、どういう認証をすれば良いか考えている。
 
 **Link(s) to work**
 [【MySQL】auto_increment（オートインクリメント）の連番状態をリセット（初期化）する - Qiita](https://qiita.com/sola-msr/items/d6c70995ddd95361dda7)
+[【Go】基本文法③(ポインタ・構造体) - Qiita](https://qiita.com/k-penguin-sato/items/62dfe0f93f56e4bf9157#%E6%A7%8B%E9%80%A0%E4%BD%93%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF)
+[Go言語で「embedded で継承ができる」と思わないほうがいいのはなぜか？ - Qiita](https://qiita.com/Maki-Daisuke/items/511b8989e528f7c70f80)
+[Golangのローカルのタイムゾーンが決まる仕組みと指定方法 - Qiita](https://qiita.com/imamura_sh/items/a080975c6c7e23498944)
+[Go言語のエラーハンドリングについて ～panic編～ - Qiita](https://qiita.com/nayuneko/items/9534858156dfd50b43fb)[Go言語のエラーハンドリングについて ～panic編～ - Qiita](https://qiita.com/nayuneko/items/9534858156dfd50b43fb)
