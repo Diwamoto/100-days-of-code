@@ -209,3 +209,18 @@ Oauthに関しては、どういう認証をすれば良いか考えている。
 [Go言語で「embedded で継承ができる」と思わないほうがいいのはなぜか？ - Qiita](https://qiita.com/Maki-Daisuke/items/511b8989e528f7c70f80)
 [Golangのローカルのタイムゾーンが決まる仕組みと指定方法 - Qiita](https://qiita.com/imamura_sh/items/a080975c6c7e23498944)
 [Go言語のエラーハンドリングについて ～panic編～ - Qiita](https://qiita.com/nayuneko/items/9534858156dfd50b43fb)[Go言語のエラーハンドリングについて ～panic編～ - Qiita](https://qiita.com/nayuneko/items/9534858156dfd50b43fb)
+
+### Day 15: 2021/1/19, 火曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 15日目<br>ユーザのCRUDが完成したので、他のテーブルの処理を共通化する為にいろいろ調べて、interfaceがわからずつまづき。現状は同名・内部変数の方だけ違うCreate()等が乱立してるのでもう少しリファクタリングをする必要がありそう。後TableDrivenTestの思想を得た。明日実装する。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1351552580137074696?ref_src=twsrc%5Etfw">January 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+**Thoughts**:
+1つモデルを実装したので、よしこれをコピーしようとしていろいろ調べて、どう考えても`model.GetUser()`だったり`model.GetProfile()`が並ぶのはすごく面倒なので、
+{〇〇モデル}.Get()でやるように頑張ろうとして、interfaceの概念が分からず、詰まってしまった。一つの共通モデルを実装して、その取得テーブル名を変更したモデルを作ろうと思ったのだが、go言語は暗黙の方変換をやらないのでうまくいかず。結局Create()等の乱立になってしまった。
+明日はTableDrivenTestの実装をやる。
+
+**Link(s) to work**
+[初心者に送りたいinterfaceの使い方Golang. # Intro | by Takahito Yamada | Since I want to start “blog” that looks like men do, I do start. | Medium](https://medium.com/since-i-want-to-start-blog-that-looks-like-men-do/%E5%88%9D%E5%BF%83%E8%80%85%E3%81%AB%E9%80%81%E3%82%8A%E3%81%9F%E3%81%84interface%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9-golang-48eba361c3b4)
+[Goで見かける構造体パターン - Qiita](https://qiita.com/taizo/items/7e47f505ed0d96747ba2)
+[Golangでtestingことはじめ（2）〜テストにおける共通処理〜 - DeNA Testing Blog](https://swet.dena.com/entry/2018/01/22/120155)
