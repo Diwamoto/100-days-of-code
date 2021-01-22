@@ -224,3 +224,19 @@ Oauthに関しては、どういう認証をすれば良いか考えている。
 [初心者に送りたいinterfaceの使い方Golang. # Intro | by Takahito Yamada | Since I want to start “blog” that looks like men do, I do start. | Medium](https://medium.com/since-i-want-to-start-blog-that-looks-like-men-do/%E5%88%9D%E5%BF%83%E8%80%85%E3%81%AB%E9%80%81%E3%82%8A%E3%81%9F%E3%81%84interface%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9-golang-48eba361c3b4)
 [Goで見かける構造体パターン - Qiita](https://qiita.com/taizo/items/7e47f505ed0d96747ba2)
 [Golangでtestingことはじめ（2）〜テストにおける共通処理〜 - DeNA Testing Blog](https://swet.dena.com/entry/2018/01/22/120155)
+
+### Day 16: 2021/1/20, 水曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 16日目<br>ユーザのテストをTableDrivenTestに全て書き換えた。<br>ユーザのリファクタリングがある程度できたので、他のテーブルに書き写そうとしたら、TestMain()が共有できないことに気付き、テスト用のデータベースの初期化に悩まされる。<br>バックエンド完成までもう少し、頑張る。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1352067299528720385?ref_src=twsrc%5Etfw">January 21, 2021</a></blockquote>
+
+**Thoughts**:
+Userのテストを全てTableDrivenTestに書き換えた。テストコードが増えたが、今後の管理には役立ちそう。
+それはそうと、テストをまわすと毎回データベースコンテナから接続を拒絶する旨の通知がくる。どうにかしないと。
+
+
+**Link(s) to work**
+[go — Go構造体にデフォルト値を設定する方法](https://www.it-swarm-ja.tech/ja/go/go%E6%A7%8B%E9%80%A0%E4%BD%93%E3%81%AB%E3%83%87%E3%83%95%E3%82%A9%E3%83%AB%E3%83%88%E5%80%A4%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/824338261/)
+[goのtesting.Mを使った関数がpackage単位のfixtureとして使えるか調べてみる - podhmo’s diary](https://pod.hatenablog.com/entry/2018/03/18/202020)
+[Goのスコープについて考えてみよう #golang - Qiita](https://qiita.com/tenntenn/items/ac5940dfbca703183fdf)
+[Goのグローバル変数とスコープでハマった話 - Qiita](https://qiita.com/UHNaKZ/items/637cb3e1c538d8e63ee2)
