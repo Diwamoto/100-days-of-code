@@ -240,3 +240,17 @@ Userのテストを全てTableDrivenTestに書き換えた。テストコード�
 [goのtesting.Mを使った関数がpackage単位のfixtureとして使えるか調べてみる - podhmo’s diary](https://pod.hatenablog.com/entry/2018/03/18/202020)
 [Goのスコープについて考えてみよう #golang - Qiita](https://qiita.com/tenntenn/items/ac5940dfbca703183fdf)
 [Goのグローバル変数とスコープでハマった話 - Qiita](https://qiita.com/UHNaKZ/items/637cb3e1c538d8e63ee2)
+
+### Day 17: 2021/1/21, 木曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 17日目<br>データベースの接続用の構造体をシングルトン実装に<br>することでデータベースの初期化を何回も起こらないように変更できた。さらにテスト毎にまっさらなデータベースですっきりできるようにした。他のテーブルについても少しづつ実装ができてきた。完成が見えてきた！！！</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1352250552470495235?ref_src=twsrc%5Etfw">January 21, 2021</a></blockquote>
+
+**Thoughts**:
+前々から少しづつデザインパターンの勉強をしていたのだが、ようやく実際に使える時がきた。
+テストの際に使用するデータベースがずっと接続を拒否するメッセージを出していた→テストの際に、一度データベースの接続を閉じる前にもう一度開いてしまっていた
+ところがあったため、データベースの接続オブジェクトをシングルトンにして、二回以上接続できないようにすることができた。
+さらに、データベースを毎回初期化することでまっさらな状態でテストを行って終わったら全て破棄するといういい状態に持ってくることができた。
+
+**Link(s) to work**
+[Golangで、デザインパターン「Singleton」を学ぶ - Qiita](https://qiita.com/ttsubo/items/2498bf77f81b6ed23198)
