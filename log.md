@@ -254,3 +254,17 @@ Userのテストを全てTableDrivenTestに書き換えた。テストコード�
 
 **Link(s) to work**
 [Golangで、デザインパターン「Singleton」を学ぶ - Qiita](https://qiita.com/ttsubo/items/2498bf77f81b6ed23198)
+
+
+### Day 18: 2021/1/22, 金曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 18日目<br>モデルのCRUDは完成したのでコードを別モデルに写して処理をちょこっと変えてテストを書いて通してコミットするという動作を4回繰り返して全テーブル実装し終わった！<br>終わったということでとりあえずバックエンドは置いといて、明日からvueでフロントの実装をやる！</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1352632435322703873?ref_src=twsrc%5Etfw">January 22, 2021</a></blockquote>
+
+**Thoughts**:
+バックエンドの実装が一区切りついた！感想としては、思ったより簡単だった。goの設計が本当にわかりやすく、コンパイラ言語でありながらスクリプト言語の開発速度を持っているというのがよくわかった。
+次はこの作ったAPIを使ってフロントを作っていく。こっからだ。。
+
+**Link(s) to work**
+[逆引きGolang (正規表現)](https://ashitani.jp/golangtips/tips_regexp.html)
+[validator - GoDoc](https://godoc.org/gopkg.in/go-playground/validator.v9)
