@@ -268,3 +268,25 @@ Userのテストを全てTableDrivenTestに書き換えた。テストコード�
 **Link(s) to work**
 [逆引きGolang (正規表現)](https://ashitani.jp/golangtips/tips_regexp.html)
 [validator - GoDoc](https://godoc.org/gopkg.in/go-playground/validator.v9)
+
+
+### Day 19: 2021/1/25, 月曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 19日目<br>土日は別件で忙しくてコードをかけなかった、、、今日からフロントの実装に取り掛かろうとvueの環境を構築してみてすごく訳わからんになっていた。<br>CORSなんていう言葉も出てきてえらいこっちゃとなってしまっていた。落ち着いて、APIから情報は取れたので焦らず勉強する。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1353713822238797824?ref_src=twsrc%5Etfw">January 25, 2021</a></blockquote> 
+
+**Thoughts**:
+バックエンドが終わったので、フロントの実装に取り掛かるためにvueの環境をつくってみたが、そこから先がまるで進まなかった。
+知らない知識が多すぎて、いきなりコードを書ける状態にはなっていなかった。
+明日以降はいったんデータのやりとりを忘れてデザインを優先して作って行こうと思う。
+
+
+**Link(s) to work**
+[Vuetifyに入門する - Qiita](https://qiita.com/azukiazusa/items/16ebffd361af8fa58333)
+[はじめに — Vue.js](https://jp.vuejs.org/v2/guide/index.html)
+[Vuetify — A Material Design Framework for Vue.js](https://vuetifyjs.com/ja/)
+[axios を利用した API の使用 — Vue.js](https://jp.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
+[Vue.jsとAxiosなら驚くほど簡単に作れる！外部APIを使ったWebアプリの実例 – WPJ](https://www.webprofessional.jp/fetching-data-third-party-api-vue-axios/)
+[Vue CLIで作成したプロジェクトで起動する開発サーバーのポート番号を変更する | Developers.IO](https://dev.classmethod.jp/articles/change-vue-project-devserver-port/)
+[【Vue.js】Vue CLIでaxiosを使う方法 - Qiita](https://qiita.com/yuta-38/items/eb4ccf5b884d12db0a90)
+[echoとginでCORS対応するときの違いについて - Qiita](https://qiita.com/MasashiFujiike/items/7844150ce75d71a417ad)
