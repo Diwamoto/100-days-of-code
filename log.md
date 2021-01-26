@@ -290,3 +290,24 @@ Userのテストを全てTableDrivenTestに書き換えた。テストコード�
 [Vue CLIで作成したプロジェクトで起動する開発サーバーのポート番号を変更する | Developers.IO](https://dev.classmethod.jp/articles/change-vue-project-devserver-port/)
 [【Vue.js】Vue CLIでaxiosを使う方法 - Qiita](https://qiita.com/yuta-38/items/eb4ccf5b884d12db0a90)
 [echoとginでCORS対応するときの違いについて - Qiita](https://qiita.com/MasashiFujiike/items/7844150ce75d71a417ad)
+
+### Day 20: 2021/1/26, 火曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 20日目<br>フロントの環境がよくわからなかったので作り直した。<br>material designのためにvuetifyいれて、オートリロードのためにbrowser-syncを入れてとりあえず環境にはとても満足。<br>なにから初めたらいいかわからん状態になっているので明日くらいまではいじいじする感じになると思う。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1354093981240590343?ref_src=twsrc%5Etfw">January 26, 2021</a></blockquote> 
+
+**Thoughts**:
+フロントの環境ができず、苦戦していた時にCIを導入することを忘れていたので、さくっとTravisCIを導入した。
+設定をレポジトリにあげるだけで勝手にテストを回してくれるのでありがたい。
+また、フロントの環境の絶対条件として、自動コンパイルとオートリロードは絶対欲しかったのだが、
+vue-cliのプラグインを導入することでなんとか達成することができた。
+明日もまずはいじってみて、実装に必要な知識を得ようと思う。
+
+**Link(s) to work**
+[【Rails】Travis CIを導入してdb:createで詰まったこと - Qiita](https://qiita.com/yamato1491038/items/4ff29867b87c5cc98e6f)
+[Travis CI Tutorial - Travis CI](https://docs.travis-ci.com/user/tutorial/)
+[App-barコンポーネント — Vuetify](https://vuetifyjs.com/ja/components/app-bars/#section-4f7f304465b9)
+[vue-cli-plugin-browser-sync  -  npm](https://www.npmjs.com/package/vue-cli-plugin-browser-sync)
+[【Vue.js】ボタンで学ぶ単一ファイルコンポーネントの基礎](https://b1tblog.com/2019/10/03/vue-button/)
+[vuetifyjs + BrowserSync(lite-server)による変更のブラウザ同期 - Qiita](https://qiita.com/reireias/items/683d081780c31eaada2e)
+[GulpではじめるVue.js（最小構成） - Qiita](https://qiita.com/yaaah93/items/be5a506a583b6cd17d68)
