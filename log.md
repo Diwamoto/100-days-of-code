@@ -406,3 +406,19 @@ firebaseの仕組みがよくわからなかったのでいったん踏みとど
 ユーザ以外のルーティングが全くできていないのでそっちを先に進めることにする。
 
 **Link(s) to work**
+
+### Day 27: 2021/2/3, 水曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 27日目<br>ユーザプロフィールに向けてルーティングを飛ばそうと思ったのだが、テストがなかなか通らず、苦戦した。<br>swaggerもちゃんと書いて、apiとしてインクリメント開発がしやすい感じになった。マイページ作るのに全部にルーティング通す必要があるから頑張る。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1357191228664647681?ref_src=twsrc%5Etfw">February 4, 2021</a></blockquote> 
+
+**Thoughts**:
+ユーザプロフィールに関してのルーティングを書こうとしたのだが、
+プロフィールのモデルの実装に少し間違っているところがあり、
+テストをなんとか遠そうと奔走したがなかなかうまく行かず、手間取ってしまった。
+一応できたのでswaggerもテストではなくきちんと使える形で書き直した。
+これで一応インクリメント開発できるような形になったので、続いて他の物についてもルーティングを通していく。
+
+**Link(s) to work**
+
+
