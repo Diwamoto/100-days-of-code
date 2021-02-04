@@ -391,3 +391,18 @@ apiにリクエストを送ってログインできるようにはなったが�
 
 **Link(s) to work**
 [Nuxt.jsにおけるenvファイルの利用(初学者向けハンズオン) - Qiita](https://qiita.com/fj_yohei/items/c77bff6f0177b4ff219e#comments)
+
+### Day 26: 2021/2/2, 火曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 26日目<br>認証はいったんおいといて、（まだデプロイしていないのでドメインがないので）先に進むことにした。<br>マイページで管理ができないので、いったん今日はバックエンドに戻って各テーブルへのルーティング通すことをやる。<br>ginのview使って簡単なデータベース操作作ろうかな</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1356763668982063104?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote>
+
+
+**Thoughts**:
+とりあえずログインができる・ログインを弾ける・新規登録ができる
+状態まで持っていたので先に進んだ。一応トップページまで完成したのでデプロイしようかと思ったが、
+firebaseの仕組みがよくわからなかったのでいったん踏みとどまった。
+ログインした後、マイページを作ろうとしたが
+ユーザ以外のルーティングが全くできていないのでそっちを先に進めることにする。
+
+**Link(s) to work**
