@@ -324,3 +324,21 @@ issueをみた感じ、あんまりわからなかったので、とりあえず
 
 **Link(s) to work**
 [GitHub - baserproject/ucmitz](https://github.com/baserproject/ucmitz)
+
+### Day 22: 2021/1/28, 木曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DayOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DayOfCode</a> 22日目<br>今日はフロントのトップページ作ってた。<br>基本がなってないからもうmacの画面で見るのとモニターで見るのでスタイルが崩れてしまっていて泣いた。<br>とりあえずトップページができたらデプロイしようかなぁ</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1354809933036806147?ref_src=twsrc%5Etfw">January 28, 2021</a></blockquote> 
+
+**Thoughts**:
+今日はvuejsに戻って、フロントの実装を始めた。デザインは知識が全くなく、基本がわかってないので、いろんなサイトを見てカッコ良さそうなサイトを真似した。
+vuetifyのスタイリングの感覚が微妙にbootstrapの感覚と違う為、macの画面とモニターの画面で全然違った。おそらく、vuetifyのレイアウトシステム自体がSPAを作るのにはいいが、
+トップページなどの単一のサイトを作るのには少し不向きな気がする。
+とりあえず簡潔に作って、実際のシステム制作に早く入ろう。
+
+
+**Link(s) to work**
+[Vue.jsメモ：属性、ループ内呼び出し、など - Qiita](https://qiita.com/asaokamei/items/6afa7e2f33207d041588)
+[Vueのv-forディレクティブの書き方・使い方について解説 | ELOOP（イーループ） - 開発課題に取り組んで身につける実践型プログラミング学習サービス](https://www.e-loop.jp/knowledges/9/)
+[Vuetify.js 2.2のGridSystemについて - Qiita](https://qiita.com/rubytomato@github/items/07fe07e64482f8f03ef3)
+[レスポンシブの基本、メディアクエリの書き方 | それからデザイン スタッフブログ](https://sole-color-blog.com/blog/71/)
