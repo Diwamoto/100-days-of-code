@@ -311,7 +311,7 @@ vue-cliのプラグインを導入することでなんとか達成すること�
 [【Vue.js】ボタンで学ぶ単一ファイルコンポーネントの基礎](https://b1tblog.com/2019/10/03/vue-button/)
 [vuetifyjs + BrowserSync(lite-server)による変更のブラウザ同期 - Qiita](https://qiita.com/reireias/items/683d081780c31eaada2e)
 [GulpではじめるVue.js（最小構成） - Qiita](https://qiita.com/yaaah93/items/be5a506a583b6cd17d68)
-### Day 21: 2021/1/27, 水曜日
+### Day 21: 2021/1/28, 木曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 21日目<br>昨日の夜見ていて気になったのでbasercmsのcake4系化プロジェクトに参加した。環境構築で詰まったところがあったのでいくつかまとめてプルリクを投げた。<br>ローカル開発環境についてまだまだ極めるところがありそう、、とりあえずいっぱいテスト書いて貢献するぞ</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1354454923019051010?ref_src=twsrc%5Etfw">January 27, 2021</a></blockquote>
@@ -325,7 +325,7 @@ issueをみた感じ、あんまりわからなかったので、とりあえず
 **Link(s) to work**
 [GitHub - baserproject/ucmitz](https://github.com/baserproject/ucmitz)
 
-### Day 22: 2021/1/28, 木曜日
+### Day 22: 2021/1/29, 金曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DayOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DayOfCode</a> 22日目<br>今日はフロントのトップページ作ってた。<br>基本がなってないからもうmacの画面で見るのとモニターで見るのでスタイルが崩れてしまっていて泣いた。<br>とりあえずトップページができたらデプロイしようかなぁ</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1354809933036806147?ref_src=twsrc%5Etfw">January 28, 2021</a></blockquote> 
@@ -343,7 +343,7 @@ vuetifyのスタイリングの感覚が微妙にbootstrapの感覚と違う為�
 [Vuetify.js 2.2のGridSystemについて - Qiita](https://qiita.com/rubytomato@github/items/07fe07e64482f8f03ef3)
 [レスポンシブの基本、メディアクエリの書き方 | それからデザイン スタッフブログ](https://sole-color-blog.com/blog/71/)
 
-### Day 22: 2021/1/28, 木曜日
+### Day 23: 2021/1/30, 土曜日
 
 **Today's Progress**: 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 23日目<br>午前中はlamp環境を見直そうということでdockerimageとalpineとビルドログをみてうなってました<br>午後はvueに戻ったが、かなりレガシーなやり方で作ってたトップページのレスポンシブを保つのに苦戦している。<br>トップだけは普通にhtmlをちゃんと書いて作った方が良さそう、、、</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1355200441735237633?ref_src=twsrc%5Etfw">January 29, 2021</a></blockquote>
@@ -354,6 +354,23 @@ vagrantfileをいじっていたがあまりうまく行かなかったのでや
 午後はvueに戻って、トップページをレスポンシブに対応しようとしてあんまりできなかった。
 きちんとrowcolで書かないと実装できなさそう。
 
+
+**Link(s) to work**
+[Vuetify.js 2.2のGridSystemについて - Qiita](https://qiita.com/rubytomato@github/items/07fe07e64482f8f03ef3)
+[レスポンシブの基本、メディアクエリの書き方 | それからデザイン スタッフブログ](https://sole-color-blog.com/blog/71/)
+[【CSS3】transition でプロパティを複数指定する書き方 - ハンドルネームの由来は乳製品好きから](https://becolomochi.hatenablog.com/entry/2017/12/27/160330)
+[Vue.jsでスクロールを検知する - Qiita](https://qiita.com/SatoTakumi/items/d88df8afae82c53d2d2a)
+[Vue & Vuetifyでバリデーション付きのフォームを作ってみる - Qiita](https://qiita.com/tekunikaruza_jp/items/0a68d86084d961d632ac)
+
+### Day 24: 2021/1/31, 日曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 24日目<br>今日は一時間くらいしか勉強の時間が取れなかった、<br>とりあえずヘッダーをcssの勉強かねてvueを用いつつちゃんと書き直した。<br>トップに時間取られても意味ないし、結構いい感じになったのでこのくらいでやめておく。<br>明日からはちゃんとログイン画面作ります！！！</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1355561011344928773?ref_src=twsrc%5Etfw">January 30, 2021</a></blockquote> 
+
+**Thoughts**:
+今日はあまり時間が取れなかったが、トップページのcssとかをちゃんと直してレスポンシブ対応させた。
+最低限の動きもあるし、とりあえず先に行こうと思う。
+早いところフロントとバックエンドの実装に進みたい。
 
 **Link(s) to work**
 [Vuetify.js 2.2のGridSystemについて - Qiita](https://qiita.com/rubytomato@github/items/07fe07e64482f8f03ef3)
