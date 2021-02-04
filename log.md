@@ -311,3 +311,16 @@ vue-cliのプラグインを導入することでなんとか達成すること�
 [【Vue.js】ボタンで学ぶ単一ファイルコンポーネントの基礎](https://b1tblog.com/2019/10/03/vue-button/)
 [vuetifyjs + BrowserSync(lite-server)による変更のブラウザ同期 - Qiita](https://qiita.com/reireias/items/683d081780c31eaada2e)
 [GulpではじめるVue.js（最小構成） - Qiita](https://qiita.com/yaaah93/items/be5a506a583b6cd17d68)
+### Day 21: 2021/1/27, 水曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 21日目<br>昨日の夜見ていて気になったのでbasercmsのcake4系化プロジェクトに参加した。環境構築で詰まったところがあったのでいくつかまとめてプルリクを投げた。<br>ローカル開発環境についてまだまだ極めるところがありそう、、とりあえずいっぱいテスト書いて貢献するぞ</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1354454923019051010?ref_src=twsrc%5Etfw">January 27, 2021</a></blockquote>
+
+**Thoughts**:
+baserのcake4化プロジェクト、コードネーム「ucmitz」に参加した。
+baserは扱っていたし、cake4は一度アプリを作ったことがあるので
+とりあえず環境構築でいくつか詰まったのでプルリクを投げた。
+issueをみた感じ、あんまりわからなかったので、とりあえずテストを書いて貢献しよう。
+
+**Link(s) to work**
+[GitHub - baserproject/ucmitz](https://github.com/baserproject/ucmitz)
