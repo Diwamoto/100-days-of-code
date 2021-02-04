@@ -342,3 +342,22 @@ vuetifyのスタイリングの感覚が微妙にbootstrapの感覚と違う為�
 [Vueのv-forディレクティブの書き方・使い方について解説 | ELOOP（イーループ） - 開発課題に取り組んで身につける実践型プログラミング学習サービス](https://www.e-loop.jp/knowledges/9/)
 [Vuetify.js 2.2のGridSystemについて - Qiita](https://qiita.com/rubytomato@github/items/07fe07e64482f8f03ef3)
 [レスポンシブの基本、メディアクエリの書き方 | それからデザイン スタッフブログ](https://sole-color-blog.com/blog/71/)
+
+### Day 22: 2021/1/28, 木曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 23日目<br>午前中はlamp環境を見直そうということでdockerimageとalpineとビルドログをみてうなってました<br>午後はvueに戻ったが、かなりレガシーなやり方で作ってたトップページのレスポンシブを保つのに苦戦している。<br>トップだけは普通にhtmlをちゃんと書いて作った方が良さそう、、、</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1355200441735237633?ref_src=twsrc%5Etfw">January 29, 2021</a></blockquote>
+
+**Thoughts**:
+ucmitzの環境が、vagrantのosにcentosを使用しており、そのカーネルが古いせいでビルドに失敗していたので、osにdocker用のosであるbargeを採用してもらおうと
+vagrantfileをいじっていたがあまりうまく行かなかったのでやめた。
+午後はvueに戻って、トップページをレスポンシブに対応しようとしてあんまりできなかった。
+きちんとrowcolで書かないと実装できなさそう。
+
+
+**Link(s) to work**
+[Vuetify.js 2.2のGridSystemについて - Qiita](https://qiita.com/rubytomato@github/items/07fe07e64482f8f03ef3)
+[レスポンシブの基本、メディアクエリの書き方 | それからデザイン スタッフブログ](https://sole-color-blog.com/blog/71/)
+[【CSS3】transition でプロパティを複数指定する書き方 - ハンドルネームの由来は乳製品好きから](https://becolomochi.hatenablog.com/entry/2017/12/27/160330)
+[Vue.jsでスクロールを検知する - Qiita](https://qiita.com/SatoTakumi/items/d88df8afae82c53d2d2a)
+[Vue & Vuetifyでバリデーション付きのフォームを作ってみる - Qiita](https://qiita.com/tekunikaruza_jp/items/0a68d86084d961d632ac)
