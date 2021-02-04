@@ -378,3 +378,16 @@ vagrantfileをいじっていたがあまりうまく行かなかったのでや
 [【CSS3】transition でプロパティを複数指定する書き方 - ハンドルネームの由来は乳製品好きから](https://becolomochi.hatenablog.com/entry/2017/12/27/160330)
 [Vue.jsでスクロールを検知する - Qiita](https://qiita.com/SatoTakumi/items/d88df8afae82c53d2d2a)
 [Vue & Vuetifyでバリデーション付きのフォームを作ってみる - Qiita](https://qiita.com/tekunikaruza_jp/items/0a68d86084d961d632ac)
+
+### Day 25: 2021/2/1, 月曜日
+
+**Today's Progress**: 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> 25日目<br>昨日書き忘れた<br>ログイン画面の大方の見た目はできたので、いざAPIを叩いてユーザ認証してみようと思ったけど、API側のセキュリティがうまく行かない。<br>簡単APIキー（秘密鍵方式）を作ってみたけど、フロントにおいとくと簡単に読み取られてしまう。どうしよう。。。</p>&mdash; Diwamoto (@Diwamoto_) <a href="https://twitter.com/Diwamoto_/status/1356108934969344002?ref_src=twsrc%5Etfw">February 1, 2021</a></blockquote>
+
+**Thoughts**:
+apiにリクエストを送ってログインできるようにはなったが、今のままだといろんなところからapiを叩けていたずらされてしまうので、
+簡単にサーバで持ってるキーをヘッダにもつリクエストのみを受け入れる様にしてみたが、調べたところフロントにそのキーをおいて置くと
+簡単に読み取られてしまうらしい（vueの仕様）なので、もう少し考える。。。CORSの設定でうまくいくといいけど、、
+
+**Link(s) to work**
+[Nuxt.jsにおけるenvファイルの利用(初学者向けハンズオン) - Qiita](https://qiita.com/fj_yohei/items/c77bff6f0177b4ff219e#comments)
